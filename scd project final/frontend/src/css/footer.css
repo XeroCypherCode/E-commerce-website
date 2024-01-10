@@ -1,0 +1,120 @@
+.main-footer{
+    background-color: #DD571C;
+    color: white;
+    /* padding-top: 3%; */
+    margin-top: 8%;
+}
+.brand-name{
+    
+    padding-top: 2%;
+    
+    margin-left: 3%;
+}
+.payments{
+    padding-top: 1%;
+    margin-left: 3%;
+}
+.shoping1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26%;
+    margin-top: -12%;
+   
+}
+.clot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 2%;
+    margin-top: -1%;
+   
+}
+.shopping2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 29%;
+    margin-top: -2%;
+   
+
+}
+.shoping3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 27%;
+    margin-top: -2%;
+}
+.sale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 31%;
+    margin-top: -2%;
+    
+}
+/* footer.css */
+.shoping-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -16.5%;
+    margin-left: 15%;
+}
+.item1{
+    margin-top: -1%;
+    margin-left: -3%;
+}
+.item2{
+    margin-top: -1%;
+    margin-left: 1%;
+}
+.item3{
+    margin-top: 0%;
+    margin-left: -4%;
+}
+.item4{
+    margin-top: -0.5%;
+    margin-left: 2%;
+}
+  .News{
+    float: right;
+    margin-right: 16%;
+    margin-top: -17%;
+  }
+  .Newspara{
+    float: right;
+    margin-right: 8%;
+    margin-top: -10%;
+  }
+/* Add this to your existing CSS file */
+.heart {
+    color: #ff0000; /* Set the color of the heart emoji */
+    display: inline-block;
+    transform: scale(1.2); /* Adjust the size of the heart emoji */
+    animation: heartbeat 1s infinite; /* Add heartbeat animation */
+   
+  }
+  
+  @keyframes heartbeat {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+  }
+ .end{
+    text-align: center;
+    margin-top: 4%;
+    padding-bottom: 3%;
+    margin-bottom: 0%;
+ }
+ 

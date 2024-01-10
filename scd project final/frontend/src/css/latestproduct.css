@@ -1,0 +1,72 @@
+/* Multiline container */
+.column.is-multiline {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Full-width column */
+  .column.is-12 {
+    width: 100%;
+  }
+  
+  /* Centered heading */
+  h2.is-size-2.has-text-centered {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Cold Warm by Chequered Ink';
+    font-weight: bold;
+  }
+  
+  /* Column with one-fourth width */
+  .column.is-3 {
+    width: 22%;
+  }
+  
+  /* Box container */
+  .box {
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0.75rem;
+    box-shadow: 10px 10px 5px rgb(211, 212, 212);
+
+  }
+  
+.figure.image.mb-4 {
+  
+  overflow: hidden;
+}
+
+.figure.image.mb-4 img {
+    width: 100%;
+    height: auto;
+}
+  /* Product name */
+  h3.is-size-4 {
+    font-size: 1.5em;
+    font-family:'Cold Warm by Chequered Ink';
+    font-weight: bolder;
+  }
+  
+  /* Product price */
+  p.is-size-6.has-text-grey {
+    font-size: 0.75em;
+    color: #111111;
+  }
+  /* Responsive design */
+@media (max-width: 768px) {
+  .column.is-3 {
+      width: 100%;
+  }
+
+  h2.is-size-2.has-text-centered {
+      font-size: 1.5em;
+  }
+
+  h3.is-size-4 {
+      font-size: 1.2em;
+  }
+
+  p.is-size-6.has-text-grey {
+      font-size: 0.6em;
+  }
+}
